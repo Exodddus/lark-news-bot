@@ -165,15 +165,6 @@
     "language": "en"
   },
   {
-    "id": "jiqizhixin",
-    "name": "机器之心",
-    "category": "industry",
-    "type": "rss",
-    "url": "https://www.jiqizhixin.com/rss",
-    "enabled": true,
-    "language": "zh"
-  },
-  {
     "id": "simonwillison_net",
     "name": "simonwillison.net",
     "category": "engineering",

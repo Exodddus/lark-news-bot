@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "arxiv_cs_ai",
+    "name": "arXiv cs.AI",
+    "category": "research",
+    "type": "atom",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=12",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "arxiv_cs_lg",
+    "name": "arXiv cs.LG",
+    "category": "research",
+    "type": "atom",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=12",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "arxiv_cs_cl",
+    "name": "arXiv cs.CL",
+    "category": "research",
+    "type": "atom",
+    "url": "https://export.arxiv.org/api/query?search_query=cat:cs.CL&sortBy=submittedDate&sortOrder=descending&max_results=12",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "microsoft_research_blog",
+    "name": "Microsoft Research Blog",
+    "category": "research",
+    "type": "rss",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "github_blog",
+    "name": "GitHub Engineering",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://github.blog/engineering/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "the_gradient",
+    "name": "The Gradient",
+    "category": "research",
+    "type": "rss",
+    "url": "https://thegradient.pub/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "huggingface_blog",
+    "name": "Hugging Face Blog",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "nvidia_technical_blog",
+    "name": "NVIDIA Technical Blog",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://developer.nvidia.com/blog/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "netflix_tech_blog",
+    "name": "Netflix Tech Blog",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://netflixtechblog.com/feed",
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "meta_engineering",
+    "name": "Engineering at Meta",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://engineering.fb.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "pragmatic_engineer",
+    "name": "The Pragmatic Engineer",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://blog.pragmaticengineer.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "openai_news",
+    "name": "OpenAI News",
+    "category": "industry",
+    "type": "rss",
+    "url": "https://openai.com/news/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "anthropic_news",
+    "name": "Anthropic News",
+    "category": "industry",
+    "type": "rss",
+    "url": "https://www.anthropic.com/news/rss.xml",
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "deepmind_blog",
+    "name": "Google DeepMind Blog",
+    "category": "industry",
+    "type": "rss",
+    "url": "https://deepmind.google/discover/blog/rss.xml",
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "hacker_news_frontpage",
+    "name": "Hacker News Front Page",
+    "category": "industry",
+    "type": "rss",
+    "url": "https://hnrss.org/frontpage",
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "semantic_scholar_ai",
+    "name": "Semantic Scholar AI Search",
+    "category": "research",
+    "type": "api",
+    "api_kind": "semantic_scholar",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search",
+    "params": {
+      "query": "large language model OR ai agent OR multimodal model",
+      "limit": 10,
+      "fields": "title,abstract,url,publicationDate,year,authors"
+    },
+    "enabled": false,
+    "language": "en"
+  },
+  {
+    "id": "hn_algolia_ai",
+    "name": "Hacker News Algolia AI Search",
+    "category": "industry",
+    "type": "api",
+    "api_kind": "hn_algolia",
+    "url": "https://hn.algolia.com/api/v1/search_by_date",
+    "params": {
+      "query": "llm ai agent openai anthropic deepmind",
+      "tags": "story",
+      "hitsPerPage": 10
+    },
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "jiqizhixin",
+    "name": "机器之心",
+    "category": "industry",
+    "type": "rss",
+    "url": "https://www.jiqizhixin.com/rss",
+    "enabled": true,
+    "language": "zh"
+  },
+  {
+    "id": "simonwillison_net",
+    "name": "simonwillison.net",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://simonwillison.net/atom/everything/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "jeffgeerling_com",
+    "name": "jeffgeerling.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.jeffgeerling.com/blog.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "seangoedecke_com",
+    "name": "seangoedecke.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.seangoedecke.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "krebsonsecurity_com",
+    "name": "krebsonsecurity.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://krebsonsecurity.com/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "daringfireball_net",
+    "name": "daringfireball.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://daringfireball.net/feeds/main",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "ericmigi_com",
+    "name": "ericmigi.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://ericmigi.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "antirez_com",
+    "name": "antirez.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "http://antirez.com/rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "idiallo_com",
+    "name": "idiallo.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://idiallo.com/feed.rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "maurycyz_com",
+    "name": "maurycyz.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://maurycyz.com/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "pluralistic_net",
+    "name": "pluralistic.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://pluralistic.net/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "shkspr_mobi",
+    "name": "shkspr.mobi",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://shkspr.mobi/blog/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "lcamtuf_substack",
+    "name": "lcamtuf.substack.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://lcamtuf.substack.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "mitchellh_com",
+    "name": "mitchellh.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://mitchellh.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "dynomight_net",
+    "name": "dynomight.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://dynomight.net/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "cks_space_blog",
+    "name": "utcc.utoronto.ca/~cks",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://utcc.utoronto.ca/~cks/space/blog/?atom",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "xeiaso_net",
+    "name": "xeiaso.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://xeiaso.net/blog.rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "oldnewthing",
+    "name": "devblogs.microsoft.com/oldnewthing",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://devblogs.microsoft.com/oldnewthing/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "righto_com",
+    "name": "righto.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.righto.com/feeds/posts/default",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "lucumr_pocoo_org",
+    "name": "lucumr.pocoo.org",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://lucumr.pocoo.org/feed.atom",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "skyfall_dev",
+    "name": "skyfall.dev",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://skyfall.dev/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "garymarcus_substack",
+    "name": "garymarcus.substack.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://garymarcus.substack.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "rachelbythebay_com",
+    "name": "rachelbythebay.com",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://rachelbythebay.com/w/atom.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "overreacted_io",
+    "name": "overreacted.io",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://overreacted.io/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "timsh_org",
+    "name": "timsh.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://timsh.org/rss/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "johndcook_com",
+    "name": "johndcook.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.johndcook.com/blog/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "gilesthomas_com",
+    "name": "gilesthomas.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://gilesthomas.com/feed/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "matklad_github_io",
+    "name": "matklad.github.io",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://matklad.github.io/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "derekthompson_org",
+    "name": "derekthompson.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.theatlantic.com/feed/author/derek-thompson/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "evanhahn_com",
+    "name": "evanhahn.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://evanhahn.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "terriblesoftware_org",
+    "name": "terriblesoftware.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://terriblesoftware.org/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "rakhim_exotext_com",
+    "name": "rakhim.exotext.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://rakhim.exotext.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "joanwestenberg_com",
+    "name": "joanwestenberg.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://joanwestenberg.com/rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "xania_org",
+    "name": "xania.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://xania.org/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "micahflee_com",
+    "name": "micahflee.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://micahflee.com/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "nesbitt_io",
+    "name": "nesbitt.io",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://nesbitt.io/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "construction_physics",
+    "name": "construction-physics.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.construction-physics.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "tedium_co",
+    "name": "tedium.co",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://feed.tedium.co/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "susam_net",
+    "name": "susam.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://susam.net/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "entropicthoughts_com",
+    "name": "entropicthoughts.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://entropicthoughts.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "hillelwayne_buttondown",
+    "name": "buttondown.com/hillelwayne",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://buttondown.com/hillelwayne/rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "dwarkesh_com",
+    "name": "dwarkesh.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.dwarkeshpatel.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "borretti_me",
+    "name": "borretti.me",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://borretti.me/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "wheresyoured_at",
+    "name": "wheresyoured.at",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.wheresyoured.at/rss/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "jayd_ml",
+    "name": "jayd.ml",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://jayd.ml/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "minimaxir_com",
+    "name": "minimaxir.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://minimaxir.com/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "geohot_github_io",
+    "name": "geohot.github.io",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://geohot.github.io/blog/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "paulgraham_com",
+    "name": "paulgraham.com",
+    "category": "opinion",
+    "type": "rss",
+    "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+    "enabled": true,
+    "language": "en",
+    "max_items": 3
+  },
+  {
+    "id": "filfre_net",
+    "name": "filfre.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.filfre.net/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "blog_jim_nielsen_com",
+    "name": "blog.jim-nielsen.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://blog.jim-nielsen.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "dfarq_homeip_net",
+    "name": "dfarq.homeip.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://dfarq.homeip.net/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "jyn_dev",
+    "name": "jyn.dev",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://jyn.dev/atom.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "geoffreylitt_com",
+    "name": "geoffreylitt.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.geoffreylitt.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "downtowndougbrown_com",
+    "name": "downtowndougbrown.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.downtowndougbrown.com/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "brutecat_com",
+    "name": "brutecat.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://brutecat.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "eli_thegreenplace_net",
+    "name": "eli.thegreenplace.net",
+    "category": "engineering",
+    "type": "atom",
+    "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "abortretry_fail",
+    "name": "abortretry.fail",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.abortretry.fail/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "fabiensanglard_net",
+    "name": "fabiensanglard.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://fabiensanglard.net/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "oldvcr_blogspot_com",
+    "name": "oldvcr.blogspot.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://oldvcr.blogspot.com/feeds/posts/default",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "bogdanthegeek_github_io",
+    "name": "bogdanthegeek.github.io",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://bogdanthegeek.github.io/blog/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "hugotunius_se",
+    "name": "hugotunius.se",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://hugotunius.se/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "gwern_net",
+    "name": "gwern.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://gwern.substack.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "berthub_eu",
+    "name": "berthub.eu",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://berthub.eu/articles/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "chadnauseam_com",
+    "name": "chadnauseam.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://chadnauseam.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "simone_org",
+    "name": "simone.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://simone.org/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "it_notes_dragas_net",
+    "name": "it-notes.dragas.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://it-notes.dragas.net/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "beej_us",
+    "name": "beej.us",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://beej.us/blog/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "hey_paris",
+    "name": "hey.paris",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://hey.paris/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "danielwirtz_com",
+    "name": "danielwirtz.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://danielwirtz.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "matduggan_com",
+    "name": "matduggan.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://matduggan.com/rss/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "refactoringenglish_com",
+    "name": "refactoringenglish.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://refactoringenglish.com/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "worksonmymachine_substack",
+    "name": "worksonmymachine.substack.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://worksonmymachine.substack.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "philiplaine_com",
+    "name": "philiplaine.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://philiplaine.com/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "steveblank_com",
+    "name": "steveblank.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://steveblank.com/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "bernsteinbear_com",
+    "name": "bernsteinbear.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://bernsteinbear.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "danieldelaney_net",
+    "name": "danieldelaney.net",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://danieldelaney.net/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "troyhunt_com",
+    "name": "troyhunt.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.troyhunt.com/rss/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "herman_bearblog_dev",
+    "name": "herman.bearblog.dev",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://herman.bearblog.dev/feed/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "tomrenner_com",
+    "name": "tomrenner.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://tomrenner.com/index.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "blog_pixelmelt_dev",
+    "name": "blog.pixelmelt.dev",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://blog.pixelmelt.dev/rss/",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "martinalderson_com",
+    "name": "martinalderson.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://martinalderson.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "danielchasehooper_com",
+    "name": "danielchasehooper.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://danielchasehooper.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "sgtatham_quasiblog",
+    "name": "chiark.greenend.org.uk/~sgtatham",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "grantslatton_com",
+    "name": "grantslatton.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://grantslatton.com/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "experimental_history",
+    "name": "experimental-history.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.experimental-history.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "anildash_com",
+    "name": "anildash.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://anildash.com/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "aresluna_org",
+    "name": "aresluna.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://aresluna.org/main.rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "michael_stapelberg_ch",
+    "name": "michael.stapelberg.ch",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://michael.stapelberg.ch/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "miguelgrinberg_com",
+    "name": "miguelgrinberg.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://blog.miguelgrinberg.com/feed",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "keygen_sh",
+    "name": "keygen.sh",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://keygen.sh/blog/feed.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "mjg59_dreamwidth_org",
+    "name": "mjg59.dreamwidth.org",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://mjg59.dreamwidth.org/data/rss",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "computer_rip",
+    "name": "computer.rip",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://computer.rip/rss.xml",
+    "enabled": true,
+    "language": "en"
+  },
+  {
+    "id": "tedunangst_com",
+    "name": "tedunangst.com",
+    "category": "engineering",
+    "type": "rss",
+    "url": "https://www.tedunangst.com/flak/rss",
+    "enabled": true,
+    "language": "en"
+  }
+]
